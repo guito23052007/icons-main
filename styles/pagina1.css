@@ -1,0 +1,191 @@
+ body {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    
+    }
+
+header {
+    width: 100%;
+    height: 160px;
+    background-color: rgba(0, 0, 0, 0.829);
+  
+    
+}
+
+#tudo{
+    width: 100%;
+    height: 80px;
+}
+input{
+    position: absolute;
+    width: 23%;
+    height: 5%;
+    top: 11px;
+    left: 40%;
+    border-radius: 6px;
+}
+#bnt{
+    position: absolute;
+    top: 20px;
+    left: 61%;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+    color: rgb(255, 115, 0);
+    font-size: 26px;
+}
+.icon2 img {
+    width: 8%;
+    height: 7%;
+    position: absolute;
+    top: 12%;
+    left: 13%;
+}
+.parte1 h4 {
+  position: absolute;
+  top: 15px;
+  left: 29%;
+  color: rgb(255, 255, 255);
+}
+#icon1{
+    position: absolute;
+    top:20px;
+    left: 28%;
+}
+#bnt2{
+  position: absolute;
+  width: 30%;
+  height: 5%;
+  top: 30px;
+  left: 65%;
+  font-size: 30px;
+ 
+}
+#b{
+   font-size: 15px;
+   color: rgba(28, 149, 255, 0);
+   background-color: rgba(0, 0, 0, 0);
+   border: 0px;
+}
+#n{
+    font-size: 26px;
+    color: aqua;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+#b1{
+    font-size: 26px;
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+    position: absolute;
+    left: 20%;
+}
+#b2{
+    font-size: 15px;
+    color: rgba(28, 149, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    position: absolute;
+    left: 50%;
+    top: 9px;
+}
+
+#b3{
+    font-size: 24px;
+    position: absolute;
+    left: 60%;
+    top: 9px;
+    color: rgba(28, 149, 255, 0);
+    background-color: rgba(0, 0, 0, 0);
+    border: 0px;
+}
+#minha{
+    position: absolute;
+    top: -27px;
+    color: aliceblue;
+    left: 28%;
+    font-size: 20px;
+}
+#parte2 {
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.829);
+    position: absolute;
+    top: 80px;
+}
+#link{
+    color: aliceblue;
+}
+.as {
+    display: flex;
+    position: absolute;
+    left: -210%;
+    gap: 4%;
+    top: 55px;
+  }
+a{
+    color: aliceblue;
+}
+@media only screen and (max-width: 1100px) {
+    body img{
+       position: absolute;
+       left: 6%;
+       width: 22%;
+       top: 30px;
+     }
+  
+     .parte1 h4 {
+      display: none;
+      }
+      #minha{
+        display: none;
+      }
+      #b{
+        display: none;
+      }
+      #n{
+        display: none;
+      }
+      #b2{
+        display: none;
+      }
+      .icon1{
+        display: none;
+      }
+      #parte2{
+        height: 8%;
+        border: 0px;
+        background-color: rgba(0, 0, 0, 0.829);
+      }
+      input{
+        position: absolute;
+        width: 93%;
+        height: 5%;
+        top: 80px;
+        left: 2%;
+        border-radius: 6px;
+         color: aliceblue;
+      }
+     
+      #b3{
+        position: absolute;
+        left: 84%;
+        top: 10%;
+      }
+      #b1{
+        position: absolute;
+        left: 60%;
+      }
+      #bnt{
+        position:absolute ;
+        top: 10%;
+        left: 85%;
+      
+      }
+      .as {
+        display: none;
+      }
+     
+  
+}
+
