@@ -2,10 +2,10 @@
   .carrossel {
     filter: drop-shadow(0px 0px 10px #000);
     overflow: hidden;
-    width: 65%;
+    width: 60%;
     height: 700px;
     position: absolute;
-    top: 18%;
+    top: 20%;
     left: 17%;
   }
   
@@ -21,4 +21,30 @@
     width: 1250px;
     height: 600px;
     
+  }
+  @media only screen and (max-width: 1000px) {
+    .carrossel {
+      filter: drop-shadow(0px 0px 10px #000);
+      overflow: hidden;
+      width: 60%;
+      height: 700px;
+      position: absolute;
+      top: 20%;
+      left: 17%;
+    }
+    
+    .container {
+      display: flex;
+      transition: 0.7s ease-in-out;
+      transform: translateX(0);
+      
+    }
+    
+    img {
+      margin-top: -100px;
+      width: 1250px;
+      height: 600px;
+      
+    }
+      
   }

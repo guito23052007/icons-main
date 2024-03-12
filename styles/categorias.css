@@ -6,7 +6,7 @@
     position: relative;
     position: absolute;
     top: 700px;
-    left: 25%;
+    left: 21%;
   }
   
   #carousel {
@@ -68,32 +68,18 @@ h3{
 
 
 @media only screen and (max-width: 1000px) {
-    body{
-        background-color: rgba(238, 10, 170, 0.199);
-    }
-    main div {
-        width: 60%;
-        height: 40%;
-        position: absolute;
-        top: 28%;
-        left: 20%;
-        text-align: center;
-        box-shadow: 0 0 30px rgba(255, 255, 255, 0.288);
-        background-color: rgba(175, 175, 175, 0);
-    }
-    body img {
-        width: 0%;
-        height: 100vh;
-        display: grid;
-       
-    }
-   
-    h1{
-        color: white;
-        font-size: 29px;
-        position: absolute;
-        top: 2px;
-        left: 34%;
-        text-shadow: 0.1em 0.1em #85058a85
-    }
+  
+  #wrapper {
+    width: 50%;
+    left: 25%;
+}
+
+#prev {
+    display: none;
+}
+
+#content {
+    grid-auto-flow: row;
+}
+    
 }
